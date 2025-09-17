@@ -15,7 +15,6 @@ public class MyQueue<T>
     }
     public void Enqueue(T value)
     {
-        Debug.Log(Head == null);
         if (Head.Equals(default))
         {
             Head.Value = value;

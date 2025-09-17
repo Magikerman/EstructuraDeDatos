@@ -69,11 +69,8 @@ public class MyStack<T>
     //Pueden nullear el top, y el Garbage Collector borra todo el stack
     public void Clear()
     {
-        for (int i = Count-1; i < 0; i--)
-        {
-            Pop();
-        }
         Count = 0;
+        top = null;
     }
 
     //Value tiene que ser out

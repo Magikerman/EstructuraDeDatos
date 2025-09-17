@@ -9,22 +9,25 @@ EditorBuildSettings:
     path: Assets/Menu/Menu.unity
     guid: 1e6185bfd7bd62748bdae752c36feb11
   - enabled: 1
-    path: Assets/Scenes/TP1/TP1.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/Scenes/TP2/Tienda.unity
-    guid: 200e69b059dc51c42bc69659ffe74ac5
-  - enabled: 1
     path: Assets/TP5/Scenes/recursividad.unity
     guid: 951cdfe9c2b0f5946b623615da286417
   - enabled: 1
-    path: Assets/Scenes/TP3/Torres de Hanoi.unity
-    guid: 5e76d78d6ee87b6418189afc7715a74b
+    path: Assets/TP1/Scene/TP1.unity
+    guid: 335ab13d446afb349a5ae47de8a22e10
   - enabled: 1
-    path: Assets/Scenes/TP3/Sombra.unity
-    guid: cbd44e77c36dde24e80b9c854b541b97
+    path: Assets/TP2/Scenes/LinkedList.unity
+    guid: b0af288d81ca772498796de51c09946a
   - enabled: 1
-    path: Assets/Scenes/TP2/LinkedList.unity
-    guid: 6cf2dfdfcdc3b9c45b6d2a2c3982b21e
+    path: Assets/TP2/Scenes/Tienda.unity
+    guid: 69b068577ebb1ee4791b3a5e10d21db6
+  - enabled: 1
+    path: Assets/TP3/Scene/Sombra.unity
+    guid: c23df1ce257fc3141839b129c4248510
+  - enabled: 1
+    path: Assets/TP3/Scene/Torres de Hanoi.unity
+    guid: 00a6aa60761a2ea4aa220067cc6f32aa
+  - enabled: 1
+    path: Assets/TP4/Scene/Sort.unity
+    guid: 278e3f01ad4a7e24999e4fa1295882af
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
