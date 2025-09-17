@@ -1,9 +1,9 @@
-using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
-using System;
-using NUnit.Framework;
-using System.Linq;
-public class ListManager : MonoBehaviour
+using UnityEngine;
+
+public class LinkedListManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text text;
     [SerializeField] public SimpleList<string> myList = new SimpleList<string>();
@@ -23,8 +23,8 @@ public class ListManager : MonoBehaviour
         textList = "";
         for (int i = 0; i < myList.Count; i++)
         {
-            if (i == myList.Count-1) { textList += myList[i]; }
-            else { textList += myList[i] + ", "; }     
+            if (i == myList.Count - 1) { textList += myList[i]; }
+            else { textList += myList[i] + ", "; }
         }
         text.text = textList;
 

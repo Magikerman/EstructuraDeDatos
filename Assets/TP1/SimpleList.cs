@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using static UnityEditor.Progress;
 public class SimpleList<T> : ISimpleList<T>
 {
     public T[] array;
@@ -75,6 +76,27 @@ public class SimpleList<T> : ISimpleList<T>
         }
         return removed;
     }
+
+    public bool RemoveAt(int id)
+    {
+        bool removed = false;
+
+        if (id < array.Length)
+        {
+            array[id] = default;
+            removed = true;
+        }
+
+        if (removed)
+        {
+            for (int i = id; i < count; i++)
+            {
+                array[i] = array[i + 1];
+            }
+        }
+        return removed;
+    }
+
     public void Clear()
     {
         array = new T[defaultSize];
